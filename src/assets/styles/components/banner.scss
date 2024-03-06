@@ -1,0 +1,24 @@
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  height: 50rem;
+
+  .banner-tittle {
+    position: absolute;
+
+    color: white;
+    font-size: 2.5rem;
+
+    margin-left: 4rem;
+    margin-top: 30%;
+  }
+
+  .banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

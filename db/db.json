@@ -1,0 +1,57 @@
+{
+  "ingredients": {
+    "breads": [
+      "Italiano Branco",
+      "3 Queijos",
+      "Parmesão e Orégano",
+      "Integral"
+    ],
+    "meats": [
+      "Maminha",
+      "Alcatra",
+      "Picanha",
+      "Veggie burger"
+    ],
+    "toppings": [
+      {
+        "id": 1,
+        "type": "Bacon"
+      },
+      {
+        "id": 2,
+        "type": "Cheddar"
+      },
+      {
+        "id": 3,
+        "type": "Salame"
+      },
+      {
+        "id": 4,
+        "type": "Tomate"
+      },
+      {
+        "id": 4,
+        "type": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "type": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "type": "Requested"
+    },
+    {
+      "id": "2",
+      "type": "In progress"
+    },
+    {
+      "id": "3",
+      "type": "Done"
+    }
+  ],
+  "burgers": []
+}

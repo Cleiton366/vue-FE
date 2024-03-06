@@ -1,0 +1,57 @@
+
+.form-container {
+  width: 40rem;
+  padding: 3rem;
+  margin-bottom: 5rem;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      align-self: center;
+    }
+  
+    .input-container {
+      display: flex;
+      flex-direction: column;
+      margin: .5rem;
+  
+      width: 70%;
+
+      label {
+        font-weight: bold;
+        margin-bottom: .5rem;
+        padding: .2rem .4rem;
+        border-left: .3rem solid #FCBA03;
+      }   
+    }
+
+    .checkbox-container {
+      padding: .5rem;
+
+      width: 70%;
+
+      #title {
+        font-weight: bold;
+        margin-bottom: .5rem;
+        padding: .2rem .4rem;
+        border-left: .3rem solid #FCBA03;
+        
+        margin-left: -.5rem;
+      }
+      
+      .checkbox {
+        display: flex;
+        width: 50%;
+        margin: .8rem;
+        
+        label {
+          margin-left: 2rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

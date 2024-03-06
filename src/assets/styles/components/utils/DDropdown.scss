@@ -1,0 +1,40 @@
+.dropdown {
+  width: 100%;
+  height: 2rem;
+  padding: .2rem;
+
+  border: rgb(70, 68, 68) .1rem solid;
+  border-radius: .3rem;
+
+  align-items: center;
+
+  .p-dropdown-label  {
+    margin-left: .8rem;
+  }
+}
+
+.p-dropdown-panel {
+  background-color: #fff;
+
+  .p-dropdown-items {
+    padding: .3rem;
+    
+    .p-dropdown-item {
+      margin: 1rem;
+
+      &:hover {
+        border-bottom: .1rem solid #222 ;
+      }
+    }
+
+    .p-focus {
+      border-bottom: .1rem solid #222 ;
+    }
+
+    .p-highlight {
+      border-bottom: .1rem solid #222 ;
+      background-color: #ffdfdf;
+    }
+  }
+}
+
